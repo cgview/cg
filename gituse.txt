@@ -1,0 +1,20 @@
+1，当git远程仓库的代码和本地代码不一致时怎么处理
+    将先使用git pull 拉取远程仓库的代码，这时会报有冲突
+    点击进入有冲突的文件，代码冲突解决，然后再提交代码
+2，怎么提交代码
+    1，git add 需要提交的文件名称
+       git add .  表示提交所有修改的文件
+	 
+    2，git commit -m "本次修改的描述语言"
+		$ git commit -m jiejuechongtu
+		[master 7dfcfff] jiejuechongtu
+
+    3，git push origin 分支名
+	    $ git push origin master
+      Counting objects: 6, done.
+      Delta compression using up to 4 threads.
+      Compressing objects: 100% (4/4), done.
+      Writing objects: 100% (6/6), 558 bytes | 0 bytes/s, done.
+      Total 6 (delta 0), reused 0 (delta 0)
+      To https://github.com/cgview/cg.git
+      3847935..7dfcfff  master -> master
