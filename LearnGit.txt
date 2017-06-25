@@ -5,3 +5,6 @@
 2，在工作区修改了代码，并提交的了缓存区，即进行了git add操作，想回到修改之前
 	步骤1，git reset HEAD 修改的文件名
 	步骤2，git checkout -- 修改的文件名
+	
+3，在工作区修改了代码，并提交到了本地仓库，即进行了git commit操作 ，想回到修改前
+	步骤1，git reset -- hard HEAD^
