@@ -7,4 +7,7 @@
 	步骤2，git checkout -- 修改的文件名
 	
 3，在工作区修改了代码，并提交到了本地仓库，即进行了git commit操作 ，想回到修改前
-	步骤1，git reset -- hard HEAD^
+	步骤1，git reset --hard HEAD^
+
+4,在工作区修改了代码，并push到了远程仓库，想回到修改前
+	
