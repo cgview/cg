@@ -8,7 +8,7 @@
     2，git commit -m "本次修改的描述语言"
 		$ git commit -m jiejuechongtu
 		[master 7dfcfff] jiejuechongtu
-
+haha
     3，git push origin 分支名
 	    $ git push origin master
       Counting objects: 6, done.
