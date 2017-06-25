@@ -11,4 +11,9 @@
 	git reset --hard commitId//回到相应commitId的版本
 
 4,在工作区修改了代码，并push到了远程仓库，想回到修改前
-	
+
+5，删除一个文件
+	步骤1，在工作区删除一个文件
+	步骤2，git rm 删除的文件名
+	步骤3，git commit
+	步骤4，git push
